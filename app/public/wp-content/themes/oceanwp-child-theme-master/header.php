@@ -81,8 +81,8 @@ $lien=get_field('lien_google_maps', 161);
 <!-- Code pour fermer la popup -->
 
 <script>
-$('.popup-close').click(function(){
-	$(this).parent().hide();
+jQuery('.popup-overlay').click(function(){
+	jQuery(this).hide();
 })
 </script>
 
@@ -97,6 +97,7 @@ $('.popup-close').click(function(){
 function contact_btn() {
 
 	// Code du bouton
+	$string = '';
 	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
 
 	// On retourne le code

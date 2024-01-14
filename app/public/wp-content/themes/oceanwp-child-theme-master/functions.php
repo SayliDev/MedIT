@@ -37,4 +37,10 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 // 	return $items;
 // }
 
+
+    // Déclaration de la variable
+    $items = '';
+$items .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
+
+
 add_filter( 'wp_nav_menu_items', 'contact_btn', 10, 2 );
