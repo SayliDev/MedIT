@@ -63,7 +63,7 @@ $lien=get_field('lien_google_maps', 161);
 			<div class="popup-address">
 				<p><b>Le lieu</b></p>
 				<?php echo $lieu; ?>
-				<a class="popup-link" href="<?php echo $lien; ?>" target="_blank">Voir sur Google Maps</a>
+				<a class="popup-link" href="<?php echo $lien['url']; ?>" target="_blank">Voir sur Google Maps</a>
 			</div>
 			<div class="popup-address">
 				<p><b>La date</b></p>
@@ -81,8 +81,8 @@ $lien=get_field('lien_google_maps', 161);
 <!-- Code pour fermer la popup -->
 
 <script>
-jQuery('.popup-overlay').click(function(){
-	jQuery(this).hide();
+jQuery('.popup-close').click(function(){
+	jQuery('.popup-overlay').hide();
 })
 </script>
 

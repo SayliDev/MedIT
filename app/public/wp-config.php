@@ -98,6 +98,7 @@ if ( $sapi_type == 'cli' ) {
 
 define( 'WPMU_PLUGIN_DIR', '/mu-plugin' );
 define( 'DOCKET_CACHE_CONTENT_PATH', '/tmp/docket_cache' );
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
