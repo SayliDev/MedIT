@@ -94,8 +94,6 @@ jQuery('.popup-close').click(function(){
 /**
  * Shortcode pour ajouter un bouton
  */
-
-
 	// Code du bouton
 	$string = '';
 	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
