@@ -39,7 +39,7 @@ function contact_btn( $items, $args ) {
 
 
     // Déclaration de la variable
-    $items = '';
+	$items = '';
 $items .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
 
 
