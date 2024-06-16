@@ -78,7 +78,7 @@ $lien=get_field('lien_google_maps', 161);
 	</div>
 </div>
 
-<!-- Code pour fermer la popup -->
+<!-- Code pour fermer la popup-->
 
 <script>
 jQuery('.popup-close').click(function(){
@@ -90,7 +90,6 @@ jQuery('.popup-close').click(function(){
 <!-- Ajout d'un bouton contact au menu -->
 
 <?php
-
 /**
  * Shortcode pour ajouter un bouton
  */
@@ -98,9 +97,13 @@ jQuery('.popup-close').click(function(){
 	$string = '';
 	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
 
-	// On retourne le code
-	return $string;
 // On publie le shortcode
 add_shortcode('contact', 'contact_btn');
 
 ?>
+
+<!-- $string = '';
+	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
+
+	// On retourne le code
+	return $string; -->
